@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One:100,200,300,400,500,600,700|Kalam:100,200,300,400,500,600,700');
+
+/*--------------------------------------------Title*/
+.bg-color {
+    background-color:hsl(15, 100%, 40%);
+}
+
+.logo {
+    color: #fff;
+    text-align: center;
+}
+
+.logo:hover {
+    color: #ff9966;
+    text-decoration: none;
+}
+
+.title {
+    font-family: 'Fredoka One';
+    font-weight: 300;
+    font-size: 60px;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+/*--------------------------------------------Title*/
+
+.nav-link {
+    font-family: 'Fredoka One';
+    font-weight: 300;
+    font-size: 20px;
+}

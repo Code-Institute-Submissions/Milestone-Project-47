@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One:100,200,300,400,500,600,700|Kalam:100,200,300,400,500,600,700');
 
 /*--------------------------------------------Title*/
-.bg-color {
+.title-bg-color {
     background-color:hsl(15, 100%, 40%);
 }
 
@@ -24,10 +24,19 @@
     text-decoration: none;
 }
 
-/*--------------------------------------------Title*/
+/*--------------------------------------------Navbar*/
 
 .nav-link {
     font-family: 'Fredoka One';
     font-weight: 300;
-    font-size: 20px;
+    font-size: 18px;
+}
+
+/*--------------------------------------------Home*/
+
+#home-bg-image {
+    background-image: url("../images/morocco-img.jpg");
+    background-repeat: no-repeat;
+    height: 894px;
+    width: 2000px;
 }

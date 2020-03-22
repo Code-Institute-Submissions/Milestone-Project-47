@@ -16,20 +16,20 @@
 }
 
 .title {
-    font-family: 'Fredoka One';
-    font-weight: 300;
-    font-size: 60px;
-    padding: 5px;
-    margin: 5px;
-    text-decoration: none;
+    font-family: 'Kalam';
+    font-weight: bold;
+    font-size: 70px;
+    padding-top: 5px;
+    padding-right: 20px;
 }
 
 /*--------------------------------------------Navbar*/
 
 .nav-link {
-    font-family: 'Fredoka One';
-    font-weight: 300;
-    font-size: 18px;
+    font-family: 'Kalam';
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
 }
 
 /*--------------------------------------------Home*/
@@ -37,6 +37,25 @@
 #home-bg-image {
     background-image: url("../images/morocco-img.jpg");
     background-repeat: no-repeat;
-    height: 894px;
-    width: 2000px;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.homepage-heading {
+    font-family: 'Kalam';
+    font-weight: bold;
+    font-size: 23px;
+    text-align: center;
+    margin: 10px;
+    color: #404040;
+}
+
+.homepage-text {
+    font-family: 'Kalam';
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    margin: 10px;
+    color: #404040;
 }

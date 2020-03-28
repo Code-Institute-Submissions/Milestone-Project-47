@@ -73,4 +73,16 @@
     margin-top: 10px;
     margin-bottom: 20px;
     color: #404040;
+} 
+
+#carouselExampleIndicators {
+    margin: auto;
+}
+
+.carousel-inner img {
+    margin: auto;
+}
+
+.carousel-caption {
+    font-family: 'Kalam';
 }

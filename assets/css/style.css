@@ -85,4 +85,13 @@
 
 .carousel-caption {
     font-family: 'Kalam';
+    font-weight: bold;
+}
+
+/*--------------------------------------------Travel Planning*/
+
+.travel-br {
+    margin: 40px;
+    padding: 20px;
+    border-top: 5px double;
 }

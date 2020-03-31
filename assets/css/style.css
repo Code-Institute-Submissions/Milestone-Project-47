@@ -90,8 +90,22 @@
 
 /*--------------------------------------------Travel Planning*/
 
-.travel-br {
+.sub-border {
     margin: 40px;
     padding: 20px;
     border-top: 5px double;
+}
+
+/*--------------------------------------------Travel Planning*/
+
+.contact-form {
+    display: block;
+    text-align: center;
+}
+
+.booking-form {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
 }

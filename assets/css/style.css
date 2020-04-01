@@ -91,7 +91,7 @@
 /*--------------------------------------------Travel Planning*/
 
 .sub-border {
-    margin: 40px;
+    margin: 20px;
     padding: 20px;
     border-top: 5px double;
 }
@@ -108,4 +108,12 @@
     margin-left: auto;
     margin-right: auto;
     text-align: left;
+    font-family: 'Kalam';
+    font-weight: bold;
+    font-size: 18px;
 }
+
+.form-control {
+    margin-bottom: 20px;
+}
+

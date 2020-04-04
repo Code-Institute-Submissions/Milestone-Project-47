@@ -142,6 +142,22 @@
 					<h3 class="sub-headings sub-border">Travel Planning</h3>
 				</div>
 			</div>
+			<div class="row">
+				<div class="col-6">
+
+				</div>
+				<div class="col-6">
+					<form class="travel-search">
+						<input class="search-box" type="text" placeholder="Search.." name="search">
+					</form>
+						<div class="tr-icons">
+							<a class="travel-icon"><i class="fas fa-hotel" aria-hidden="true"></i>Hotel<a>
+                            <a class="travel-icon"><i class="fas fa-utensils" aria-hidden="true"></i>Restaurants</a>
+                            <a class="travel-icon"><i class="fas fa-archway" aria-hidden="true"></i>Attractions</a>
+						</div>
+				</div>
+			</div>
+		</div>
 	</section>
 	<!--*****************Book Your Visit*****************-->
 	<section>
@@ -154,30 +170,35 @@
 			<div class="row">
 				<div class="col">
 					<div class="contact-form">
+
 						<form class="booking-form">
 							<label for="fname">Full Name</label>
 							<input type="text" name="name" id="fullname" class="form-control" required />
-							<label for="fname">Email Address</label>
+							<label for="email">Email Address</label>
 							<input type="email" name="email" id="emailaddress" class="form-control" required />
 							<label for="fname">Contact Number</label>
-							<input type="tel" id="phone" name="phone" class="form-control" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" />
+							<input type="tel" id="phone" name="phone" class="form-control" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
 
-							<div class="options">
-                            <h5 class="booking-form">Requirements<h5><br>
-								<input type="radio" id="accommodation" name="requirements" value="accommodation" />
-								<label for="accommodation">Accommodation</label><br>
-								<input type="radio" id="flights" name="requirements" value="flights" />
-								<label for="flights">Flights</label><br>
-								<input type="radio" id="excursions" name="requirements" value="excursions" />
-								<label for="excursions">Excursions</label>
+							<div>
+								<h5 class="booking-form">Requirements<h5><br>
+										<input type="radio" id="accommodation" name="requirements" value="accommodation" />
+										<label for="accommodation">Accommodation</label><br>
+										<input type="radio" id="flights" name="requirements" value="flights" />
+										<label for="flights">Flights</label><br>
+										<input type="radio" id="excursions" name="requirements" value="excursions" />
+										<label for="excursions">Excursions</label>
 							</div>
+
+							<label for="fname">Additional Information</label>
+							<textarea rows="5" name="additonal-info" id="additonal-info" class="form-control" required></textarea>
 
 							<div class="form-row text-center">
 								<div class="col">
-									<button type="submit" class="btn btn-secondary">Join</button>
+									<button type="submit" class="btn btn-secondary">We'll Be In Touch!</button>
 								</div>
 							</div>
 						</form>
+
 					</div>
 				</div>
 			</div>

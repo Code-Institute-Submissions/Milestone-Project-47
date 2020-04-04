@@ -96,7 +96,27 @@
     border-top: 5px double;
 }
 
-/*--------------------------------------------Travel Planning*/
+.search-box {
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid grey;
+    width: 75%;
+}
+
+.tr-icons {
+    margin-top: 40px;
+    color: #404040;
+}
+
+.travel-icon {
+    padding-right: 10px;
+    font-size: 35px;
+    font-family: 'Kalam';
+    font-weight: 400;
+    border-right: 1px solid;
+}
+
+/*--------------------------------------------Book Your Visit*/
 
 .contact-form {
     display: block;

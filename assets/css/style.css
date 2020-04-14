@@ -90,34 +90,45 @@
 
 /*--------------------------------------------Travel Planning*/
 
-div#map {
-    min-height: 360px;
-}
-
 .sub-border {
     margin: 20px;
     padding: 20px;
     border-top: 5px double;
 }
 
-.search-box {
-    padding: 10px;
-    font-size: 15px;
-    border: 1px solid grey;
-    width: 87%;
-}
-
-.tr-icons {
+#tr-icons {
     margin-top: 40px;
-    color: #404040;
 }
 
 .travel-icon {
     padding-right: 10px;
-    font-size: 35px;
+    margin-right: 10px;
+    font-size: 20px;
     font-family: 'Kalam';
     font-weight: 400;
-    border-right: 1px solid;
+    color: #404040;
+}
+
+/*--------------------------------------------Listings*/
+
+#map {
+    height: 100%;
+}
+
+body {
+    padding: 0;
+}
+
+div#map {
+    min-height: 360px;
+}
+
+.map-search {
+    background: #fff;
+    display: flex;
+    position: absolute;
+    width: 440px;
+    z-index: 1;
 }
 
 /*--------------------------------------------Book Your Visit*/

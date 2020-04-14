@@ -14,24 +14,6 @@ function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
         zoom: countries.zoom,
         center: countries.center,
-        mapTypeControl: false,
-        panControl: false,
-        zoomControl: false,
-        streetViewControl: false
+        mapTypeControl: false
     });
-
-    infoWindow = new google.maps.InfoWindow({
-        content: document.getElementById('info-content')
-    });
-
-    var defaultBounds = new google.maps.LatLngBounds(
-     new google.maps.LatLng(31.889901, -6.285022));
-
-   var input = document.getElementById('autocomplete');
-   var options = {
-    bounds: defaultBounds,
-    types: ['establishment']
-    };
-
-   autocomplete = new google.maps.places.Autocomplete(input, options);
 }

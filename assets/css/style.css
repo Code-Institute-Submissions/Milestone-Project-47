@@ -96,39 +96,14 @@
     border-top: 5px double;
 }
 
-#tr-icons {
-    margin-top: 40px;
-}
-
-.travel-icon {
-    padding-right: 10px;
-    margin-right: 10px;
-    font-size: 20px;
-    font-family: 'Kalam';
-    font-weight: 400;
-    color: #404040;
-}
-
-/*--------------------------------------------Listings*/
+/*--------------------------------------------Map*/
 
 #map {
-    height: 100%;
-}
-
-body {
-    padding: 0;
+    height:100%;
 }
 
 div#map {
-    min-height: 360px;
-}
-
-.map-search {
-    background: #fff;
-    display: flex;
-    position: absolute;
-    width: 440px;
-    z-index: 1;
+    height: 440px;
 }
 
 /*--------------------------------------------Book Your Visit*/

@@ -37,22 +37,25 @@ function initMap() {
 
 // When the user selects a city, get the place details for the city and
 // zoom the map in on the city.
-function onPlaceChanged() {
+function onPlaceChanged(type) {
+    if (type == "") {
+        type = "lodging";
+    }
     var place = autocomplete.getPlace();
     if (place.geometry) {
         mapOptions.panTo(place.geometry.location);
         mapOptions.setZoom(13);
-        search();
+        search(type);
     } else {
         document.getElementById('autocomplete').placeholder = 'Search...';
     }
 }
 
 // Search for hotels in the selected city, within the viewport of the map.
-function search() {
+function search(type) {
     var search = {
         bounds: mapOptions.getBounds(),
-        types: ['lodging']
+        types: [type]
     };
 
     places.nearbySearch(search, function (results, status) {

@@ -1,6 +1,22 @@
-@import url('https://fonts.googleapis.com/css?family=Fredoka+One:100,200,300,400,500,600,700|Kalam:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Kalam:100,200,300,400,500,600,700');
+
+.sub-headings {
+    font-family: 'Kalam';
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #404040;
+} 
+
+.sub-border {
+    padding: 10px;
+    border-top: 5px double;
+}
 
 /*--------------------------------------------Title*/
+
 .title-bg-color {
     background-color:hsl(15, 100%, 40%);
 }
@@ -65,16 +81,6 @@
 
 /*--------------------------------------------Where to Visit*/
 
-.sub-headings {
-    font-family: 'Kalam';
-    font-weight: bold;
-    font-size: 28px;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    color: #404040;
-} 
-
 #carouselExampleIndicators {
     margin: auto;
 }
@@ -90,10 +96,12 @@
 
 /*--------------------------------------------Travel Planning*/
 
-.sub-border {
-    margin: 20px;
-    padding: 20px;
-    border-top: 5px double;
+.tr-text {
+    text-align: center;
+    font-family: 'Kalam';
+    font-weight: bold;
+    font-size: 20px;
+    color: #404040;
 }
 
 .tr-btn {

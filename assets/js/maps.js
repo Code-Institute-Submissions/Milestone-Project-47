@@ -47,7 +47,7 @@ function onPlaceChanged(type) {
         mapOptions.setZoom(13);
         search(type);
     } else {
-        document.getElementById('autocomplete').placeholder = 'Search...';
+        document.getElementById('autocomplete').placeholder = 'Casablanca/Marrakech/Agadir/Fes...';
     }
 }
 

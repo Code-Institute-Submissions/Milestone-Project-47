@@ -120,15 +120,28 @@
     color: #404040;
 }
 
+@media(max-width: 576px) {
+    .travel-icon {
+        margin-left: 7px;
+    }
+}
+
 .tr-btn {
     margin-bottom: 10px;
-    margin-left: 20px;
+    margin-left: 5px;
     font-family: 'Kalam';
     font-weight: 500;
     font-size: 20px;
     color: #fff;
     border: 1px solid #fff;
     background-color: hsl(15, 100%, 40%);
+}
+
+@media(max-width: 576px) {
+    .tr-btn {
+        margin-left: 0;
+        font-size: 14px;
+    }
 }
 
 .tr-btn:hover {
@@ -142,6 +155,12 @@
     margin-left: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+@media(max-width: 992px) {
+    #map {
+        margin-left: 0;
+    }
 }
 
 div#map {
@@ -176,6 +195,12 @@ div#map {
     border: 1px solid grey;
 }
 
+@media(max-width: 768px) {
+    #autocomplete {
+        width: 100%;
+    }
+}
+
 .search-box {
     margin-bottom: 10px;
     margin-left: 30px;
@@ -183,6 +208,14 @@ div#map {
     font-size: 18px;
     font-weight: 400;
 }
+
+@media(max-width: 992px) {
+    .search-box {
+        margin-left: 0;
+        font-size: 21px;
+    }
+}
+
       
 #country {
     width: 100%;

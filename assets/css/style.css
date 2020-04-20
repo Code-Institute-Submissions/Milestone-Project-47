@@ -37,7 +37,15 @@
     text-decoration: underline;
 }
 
+.nav-fixed-top {
+    margin-top: 20px;
+}
+
 /*--------------------------------------------Home*/
+
+.home {
+    margin-top: 100px;
+}
 
 #home-bg-image {
     background-image: url("../images/morocco-img.jpg");

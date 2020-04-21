@@ -17,6 +17,37 @@
     border-top: 5px double;
 }
 
+.style-btn {
+    color: #fff;
+    text-decoration: none;
+}
+
+.style-btn:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+#topBtn {
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    right: 15%;
+    left: 85%;
+    max-width: 120px;
+    width: 100%;
+    font-family: 'Kalam';
+    font-weight: bold;
+    font-size: 18px;
+    background-color: hsl(15, 100%, 40%);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#topBtn:hover {
+    background-color: #404040;
+    border-color: #404040;
+}
+
 /*--------------------------------------------Title & Navbar*/
 
 .bg-navbar {
@@ -64,10 +95,6 @@
     .nav-link {
         font-size: 17px;
     }
-}
-
-.navbar-toggler {
-    color: #fff;
 }
 
 /*--------------------------------------------Home*/

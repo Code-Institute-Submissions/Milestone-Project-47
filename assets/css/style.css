@@ -34,7 +34,13 @@
     margin-left: 100px;
 }
 
-@media(max-width: 576px) {
+@media(max-width: 1040px) {
+    .navbar-nav {
+        margin-left: 50px;
+    }
+}
+
+@media(max-width: 992px) {
     .navbar-nav {
         margin-left: 0;
     }
@@ -58,6 +64,10 @@
     .nav-link {
         font-size: 17px;
     }
+}
+
+.navbar-toggler {
+    color: #fff;
 }
 
 /*--------------------------------------------Home*/
@@ -200,6 +210,18 @@ div#map {
     top: 0px;
     cursor: pointer;
     overflow-x: hidden;
+}
+
+@media(max-width: 768px) {
+    #listing {
+        width: 220px;
+    }
+}
+
+@media(max-width: 576px) {
+    #listing {
+        width: 260px;
+    }
 }
 
 #findhotels {

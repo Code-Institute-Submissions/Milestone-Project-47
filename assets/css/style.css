@@ -30,11 +30,28 @@
     text-align: center;
 }
 
+.navbar-nav {
+    margin-left: 100px;
+}
+
+@media(max-width: 576px) {
+    .navbar-nav {
+        margin-left: 0;
+    }
+}
+
 .nav-link {
     font-family: 'Kalam';
     font-weight: bold;
     font-size: 22px;
     text-decoration: underline;
+    margin-left: 20px;
+}
+
+@media(max-width: 1099px) {
+    .nav-link {
+        margin-left: 5px;
+    }
 }
 
 @media(max-width: 576px) {

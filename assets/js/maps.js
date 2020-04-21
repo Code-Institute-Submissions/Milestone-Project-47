@@ -11,6 +11,8 @@ var countries = {
     }
 };
 
+// Intialise Map.
+
 function initMap() {
     mapOptions = new google.maps.Map(document.getElementById('map'), {
         zoom: countries['ma'].zoom,
@@ -36,6 +38,11 @@ function initMap() {
 
 // When the user selects a city, get the place details for the city and
 // zoom the map in on the city.
+
+/**
+ * When the user selects a city, get the place details for the city and zoom the map in on the city.
+ * @param {string} type search type
+ */
 function onPlaceChanged(type) {
     if (type == "") {
         type = "lodging";

@@ -239,9 +239,31 @@
 
 							<div class="form-row text-center">
 								<div class="col">
-									<button type="submit" class="form-btn btn-secondary" value="Send">We'll Be In Touch!</button>
+									<button type="submit" class="form-btn btn-secondary" value="Send" data-toggle="modal" data-target="#submitModal">We'll Be In Touch!</button>
 								</div>
 						</form>
+
+						<!-- Modal -->
+						<div class="modal fade" id="submitModal" tabindex="-1" role="dialog"
+							aria-labelledby="exampleModalLabel" aria-hidden="true">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="exampleModalLabel">VisitMorocco</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+									</div>
+									<div class="modal-body">
+										Thanks For Registering Your Interest.<br>We'll Be In Touch About Your Visit To Morocco!
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="modal-btn text-white" data-dismiss="modal">Close</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
 					</div>
 				</div>
 			</div>
@@ -286,6 +308,7 @@
 		<button id="topBtn"><a href="#top" class="style-btn">Back To Top</a></button>
 	</footer>
 
+	<!--********Allows Emails to be sent to inbox*******-->
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
 	<script type="text/javascript">
 		(function(){

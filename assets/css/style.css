@@ -362,6 +362,19 @@ div#map {
     border: 1px solid hsl(15, 100%, 40%);
 }
 
+.modal-btn {
+    font-family: 'Kalam';
+    font-weight: bold;
+    font-size: 18px;
+    background-color: hsl(15, 100%, 40%);
+    border-color: hsl(15, 100%, 40%); 
+}
+
+.modal-btn:hover {
+    background-color: #404040;
+    border-color: #404040;
+}
+
 /*--------------------------------------------Footer*/
 
 footer {

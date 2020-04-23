@@ -43,6 +43,19 @@
     border-radius: 5px;
 }
 
+@media(max-width: 992px) {
+    #topBtn {
+        right: 20%;
+        left: 80%;
+    }
+}
+
+@media(max-width: 576px) {
+    #topBtn {
+        display: none;
+    }
+}
+
 #topBtn:hover {
     background-color: #404040;
     border-color: #404040;

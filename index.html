@@ -11,7 +11,7 @@
 	<title>VisitMorocco</title>
 </head>
 
-<body onload="initMap()">
+    <body onload="initMap()">
 
 	<header>
 		<!--*****************Title & Navbar*****************-->
@@ -126,7 +126,7 @@
 				</div>
 			</div>
 		</div>
-        <button id="topBtn"><a href="#top" class="style-btn">Back To Top</a></button>
+		<button id="topBtn"><a href="#top" class="style-btn">Back To Top</a></button>
 	</section>
 	<!--*****************Travel Planning*****************-->
 	<section id="travel-planning">
@@ -148,13 +148,10 @@
 					<!--***********Map Control Buttons***********-->
 					<div class="col-12 col-lg-6">
 						<div class="travel-icon">
-							<!--***********Hotel Button***********-->
 							<button id="hotel-btn" type="submit" class="tr-btn" onClick="onPlaceChanged('lodging')">
                             <i class="fas fa-hotel" aria-hidden="true"></i> Hotels</button>
-							<!--***********Restaurant Button***********-->
 							<button id="restaurant-btn" type="submit" class="tr-btn" onClick="onPlaceChanged('restaurant')">
                                 <i class="fas fa-utensils" aria-hidden="true"></i> Restaurants</button>
-							<!--***********Attractions Button***********-->
 							<button id="attraction-btn" type="submit" class="tr-btn" onClick="onPlaceChanged('tourist_attraction')">
                                 <i class="fas fa-archway" aria-hidden="true"></i> Attractions</button>
 						</div>
@@ -204,7 +201,7 @@
 
 			</div>
 		</div>
-        <button id="topBtn"><a href="#top" class="style-btn">Back To Top</a></button>
+		<button id="topBtn"><a href="#top" class="style-btn">Back To Top</a></button>
 	</section>
 	<!--*****************Book Your Visit*****************-->
 	<section id="book-your-visit">
@@ -217,102 +214,91 @@
 			<!--*****************Contact Form*****************-->
 			<div class="row">
 				<div class="col-12">
-					<div class="contact-form">
-
-						<form class="booking-form">
+					<div class="book-visit">
+						<form id="contact-form" class="booking-form">
+							<input type="hidden" name="contact_number">
 							<label for="fname">Full Name</label>
-							<input type="text" name="name" id="fullname" class="form-control" required />
-							<label for="email">Email Address</label>
-							<input type="email" name="email" id="emailaddress" class="form-control" required />
-							<label for="telephone">Contact Number</label>
-							<input type="tel" id="telephone" name="telephone" class="form-control" required />
-
-							<div>
-								<h5 class="booking-form">Requirements<h5><br>
-										<input type="checkbox" id="accommodation" name="requirements1" value="accommodation" />
-										<label for="accommodation">Accommodation</label><br>
-										<input type="checkbox" id="flights" name="requirements2" value="flights" />
-										<label for="flights">Flights</label><br>
-										<input type="checkbox" id="excursions" name="requirements3" value="excursions" />
-										<label for="excursions">Excursions</label>
-							</div>
-
-							<label for="fname">Additional Information</label>
-							<textarea rows="5" name="additonal-info" id="additonal-info" class="form-control"></textarea>
-
-							<div class="form-row text-center">
-								<div class="col">
-									<button type="submit" class="form-btn btn-secondary">We'll Be In Touch!</button>
-								</div>
-							</div>
-						</form>
-
+							<input type="text" name="user_name" >
+							<label>Email</label>
+							<input type="email" name="user_email">
+							<label>Message</label>
+							<textarea name="message"></textarea>
+							<input type="submit" value="Send">
+                        </form>
 					</div>
 				</div>
 			</div>
-		</div>
-        <button id="topBtn"><a href="#top" class="style-btn">Back To Top</a></button>
+			<button id="topBtn"><a href="#top" class="style-btn">Back To Top</a></button>
 	</section>
 
-	<footer>
-		<!--********Footer*******-->
-		<footer class="container-fluid">
-			<div id="footer-details" class="row">
-				<div class="col-md-12">
-					<!--********Facebook Icon*******-->
-					<ul class="list-inlines">
-						<li class="list-inline-item ">
-							<a target="_blank" href="https://www.facebook.com/">
-								<i class="fab fa-facebook social-links" aria-hidden="true"></i>
-								<span class="sr-only">Facebook</span>
-							</a>
-						</li>
-						<!--********Twitter*******-->
-						<li class="list-inline-item ">
-							<a target="_blank" href="https://twitter.com/">
-								<i class="fab fa-twitter social-links" aria-hidden="true"></i>
-								<span class="sr-only">Twitter</span>
-							</a>
-						</li>
-						<!--********Twitter Icon*******-->
-						<li class="list-inline-item ">
-							<a target="_blank" href="https://www.instagram.com/?hl=en">
-								<i class="fab fa-instagram social-links" aria-hidden="true"></i>
-								<span class="sr-only">Instragram</span>
-							</a>
-						</li>
-						<!--********Snapchat Icon*******-->
-						<li class="list-inline-item ">
-							<a target="_blank" href="https://www.snapchat.com/l/en-gb/">
-								<i class="fab fa-snapchat social-links" aria-hidden="true"></i>
-								<span class="sr-only">Snapchat</span>
-							</a>
-						</li>
-					</ul>
-				</div>
+	<footer class="container-fluid">
+		<div id="footer-details" class="row">
+			<div class="col-md-12">
+				<!--********Facebook Icon*******-->
+				<ul class="list-inlines">
+					<li class="list-inline-item ">
+						<a target="_blank" href="https://www.facebook.com/">
+							<i class="fab fa-facebook social-links" aria-hidden="true"></i>
+							<span class="sr-only">Facebook</span>
+						</a>
+					</li>
+					<!--********Twitter*******-->
+					<li class="list-inline-item ">
+						<a target="_blank" href="https://twitter.com/">
+							<i class="fab fa-twitter social-links" aria-hidden="true"></i>
+							<span class="sr-only">Twitter</span>
+						</a>
+					</li>
+					<!--********Twitter Icon*******-->
+					<li class="list-inline-item ">
+						<a target="_blank" href="https://www.instagram.com/?hl=en">
+							<i class="fab fa-instagram social-links" aria-hidden="true"></i>
+							<span class="sr-only">Instragram</span>
+						</a>
+					</li>
+					<!--********Snapchat Icon*******-->
+					<li class="list-inline-item ">
+						<a target="_blank" href="https://www.snapchat.com/l/en-gb/">
+							<i class="fab fa-snapchat social-links" aria-hidden="true"></i>
+							<span class="sr-only">Snapchat</span>
+						</a>
+					</li>
+				</ul>
 			</div>
-            <button id="topBtn"><a href="#top" class="style-btn">Back To Top</a></button>
-		</footer>
-
-		<div>
-
 		</div>
+		<button id="topBtn"><a href="#top" class="style-btn">Back To Top</a></button>
+	</footer>
 
-		<script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
-		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-			integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-		</script>
-		<script
-			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBetNjI8_oebuVyw1GE9Zf6UvXlq934BSw&libraries=places"
-			async defer>
-		</script>
-		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-		</script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-			integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-		</script>
-		<script src="assets/js/maps.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
+	<script type="text/javascript">
+		(function(){
+           emailjs.init("user_8x8w8NievwgOQDq7YCXH5");
+        })();
+	</script>
+	<script type="text/javascript">
+		window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // generate the contact number value
+                this.contact_number.value = Math.random() * 100000 | 0;
+                emailjs.sendForm('contact_service', 'contact_form', this);
+            });
+        }
+	</script>
+
+	<script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+	</script>
+	<script src="assets/js/maps.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBetNjI8_oebuVyw1GE9Zf6UvXlq934BSw&libraries=places&callback=initMap"
+		async defer>
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+	</script>
+	
+
 </body>
 
 </html>

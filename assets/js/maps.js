@@ -14,6 +14,7 @@ var countries = {
 // Intialise Map.
 
 function initMap() {
+    console.log("hello");
     mapOptions = new google.maps.Map(document.getElementById('map'), {
         zoom: countries['ma'].zoom,
         center: countries['ma'].center,

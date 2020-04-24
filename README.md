@@ -43,3 +43,55 @@ Below are links to the wireframes for this project and are designed to include d
 Surface
 I have used a combination of a vibrant orange and white for the header and footer as this give the website a old school but stil refreshing look.
 The background color for the sections is white, this is because I believed it was best to keep it simple so the user can focus on the features of each section.
+
+Features
+
+Existing Features 
+
+Navbar 
+The Navbar will show the user all the sections on the page and when clicked on each section it will take you to the one you require.
+
+Bootstrap Carousel
+The carousel will allow the user to view all the locations in Morocco that we are promoting, the image will have a caption of the city it is from and information on that city.
+To navigate the carousel the user will click on the let or right arrows and it will change the images in the slideshow.
+
+Search Box
+The search box will allow the user to search any city in Morocco, but before typing anything in the box it will have a placeholder 'Casablanca/Marrakech/Agadir/Fes...' as these are the main cities we are promoting.
+
+Buttons For Map
+These buttons will allow the user to choose between hotels, restaurants or attractions as what they want brought up on the map.
+
+Map
+The map will allow the user to view the cities in Morocco, so when the user selects a city for example Marrakech the map will zoom into the city and bring up green markers on the locations depending on what button they have clicked on.  
+Place Autocomplete Hotel Search was used to help create this type of map.
+
+Results Listing
+When the user has selected a city in the search box, it will bring up a listing of the results so the user can see a list of locations depending on what button has been clicked.  
+Place Autocomplete Hotel Search was used to help create this type of map.
+
+Booking Form 
+The booking form will allow the user to register their interest in visiting morocco.
+
+Booking Checkbox
+The checkbox will allow the user to click on what they require for their visit, the options are accommodation, flights and excursions.
+
+'We'll Be In Touch' Button
+This button will allow the user to submit form.
+
+Modal
+The modal will be pop up when the form has been submitted with a message to confirm it.
+
+Back To Top
+This button will allow the user to return to the top of the page without scrolling up.
+
+Burger Icon
+The burger icon will appear on smaller screen sizes such as a mobile phone or tablet, when clicked it will display the navbar.
+
+Footer Social Links 
+The links in the footer will allow the user to visit the website's social media platforms.
+
+Features Left to Implement
+
+Multimedia Video
+In future projects, I would like to place a video in the website.
+

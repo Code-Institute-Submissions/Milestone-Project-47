@@ -95,3 +95,37 @@ Features Left to Implement
 Multimedia Video
 In future projects, I would like to place a video in the website.
 
+Technologies Used
+
+These are the following languages, frameworks and libraries used in this project:
+
+HMTL 
+This was used to build the website and input content.
+
+CSS
+This was the second language used to style the website.
+
+Javascript
+This is the third language used to create the map and its functions in the 'Travel Planning' section and also used to link EmaiLJS.
+
+JQuery
+This libary was used for the map and functions.
+
+Bootstrap
+This framework was used to bring structure to my website and it was used to create my navbar, carousel, and modal. 
+
+Font Awesome
+This libary was used to include icons for my buttons in the 'Travel Planning' section and for my footer social links.
+
+GoogleFonts
+This project was used to inlude the font 'Kalam' in my project.
+
+Google Maps Places API
+This API is used for map and features.
+
+Places Libary
+This libary was used bring up locations such as hotels, restaurants and attractions on my map and listings.
+
+Markdown
+This was used for this README file.
+

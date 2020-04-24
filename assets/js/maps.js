@@ -14,7 +14,6 @@ var countries = {
 // Intialise Map.
 
 function initMap() {
-    console.log("hello");
     mapOptions = new google.maps.Map(document.getElementById('map'), {
         zoom: countries['ma'].zoom,
         center: countries['ma'].center,
@@ -54,7 +53,7 @@ function onPlaceChanged(type) {
     }
 }
 
-// Search for hotels in the selected city, within the viewport of the map.
+// Search for hotels, restaurants and attractions in the selected city, within the viewport of the map.
 function search(type) {
     var search = {
         bounds: mapOptions.getBounds(),
@@ -65,7 +64,7 @@ function search(type) {
         if (status === google.maps.places.PlacesServiceStatus.OK) {
             clearResults();
             clearMarkers();
-            // Create a marker for each hotel found, and
+            // Create a marker for each location found, and
             // assign a letter of the alphabetic to each marker icon.
             for (var i = 0; i < results.length; i++) {
                 var markerLetter = String.fromCharCode('A'.charCodeAt(0) + (i % 26));
@@ -77,7 +76,7 @@ function search(type) {
                     icon: markerIcon
                 });
 
-                // If the user clicks a hotel marker, show the details of that hotel
+                // If the user clicks a marker, show the details of that location
                 // in an info window.
                 markers[i].placeResult = results[i];
                 google.maps.event.addListener(markers[i], 'click', showInfoWindow);
@@ -152,8 +151,8 @@ function clearResults() {
     }
 }
 
-// Get the place details for a hotel. Show the information in an info window,
-// anchored on the marker for the hotel that the user selected.
+// Get the place details for a hotel/restaurant/attraction. Show the information in an info window,
+// anchored on the marker for the location that the user selected.
 function showInfoWindow() {
     var marker = this;
     places.getDetails({ placeId: marker.placeResult.place_id },
@@ -182,8 +181,8 @@ function buildIWContent(place) {
         document.getElementById('iw-phone-row').style.display = 'none';
     }
 
-    // Assign a five-star rating to the hotel, using a black star ('&#10029;')
-    // to indicate the rating the hotel has earned, and a white star ('&#10025;')
+    // Assign a five-star rating to the location, using a black star ('&#10029;')
+    // to indicate the rating the location has earned, and a white star ('&#10025;')
     // for the rating points not achieved.
     if (place.rating) {
         var ratingHtml = '';

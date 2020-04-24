@@ -361,6 +361,10 @@ div#map {
     margin-left: auto;
     margin-right: auto;
     text-align: left;
+    
+}
+
+.label-style {
     font-family: 'Kalam';
     font-weight: bold;
     font-size: 18px;
@@ -374,6 +378,27 @@ div#map {
 .form-btn {
     background-color: hsl(15, 100%, 40%);
     border: 1px solid hsl(15, 100%, 40%);
+    font-family: 'Kalam';
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.requirement-label {
+    font-family: 'Kalam';
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.modal-title {
+    font-family: 'Kalam';
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.modal-body {
+    font-family: 'Kalam';
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .modal-btn {

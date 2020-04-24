@@ -197,9 +197,7 @@
 						</table>
 					</div>
 				</div>
-
 			</div>
-		</div>
 	</section>
 	<!--*****************Book Your Visit*****************-->
 	<section id="book-your-visit">
@@ -209,36 +207,37 @@
 					<h3 class="sub-headings sub-border">Book Your Visit</h3>
 				</div>
 			</div>
-			<!--*****************Contact Form*****************-->
+			<!--*****************Booking Form*****************-->
 			<div class="row">
 				<div class="col-12">
 					<div class="book-visit">
 						<form id="contact-form" class="booking-form">
 							<input type="hidden" name="contact_number">
-							<label for="fname">Full Name</label>
+							<label class="label-style" for="fullname">Full Name</label>
 							<input type="text" name="user_name" id="fullname" class="form-control" required />
-							<label for="email">Email Address</label>
+							<label class="label-style" for="emailaddress">Email Address</label>
 							<input type="email" name="user_email" id="emailaddress" class="form-control" required />
-							<label for="telephone">Contact Number</label>
+							<label class="label-style" for="telephone">Contact Number</label>
 							<input type="tel" id="telephone" name="user_telephone" class="form-control" required />
 
 							<div>
-								<h5 class="booking-form">Requirements<h5><br>
-										<input type="checkbox" id="accommodation" name="requirement_one" value="accommodation" />
-										<label for="accommodation">Accommodation</label><br>
-										<input type="checkbox" id="flights" name="requirement_two" value="flights" />
-										<label for="flights">Flights</label><br>
-										<input type="checkbox" id="excursions" name="requirement_three" value="excursions" />
-										<label for="excursions">Excursions</label>
+								<h5 class="label-style booking-form">Requirements</h5><br>
+								<input type="checkbox" id="accommodation" name="requirement_one" value="accommodation" />
+								<label class="requirement-label" for="accommodation">Accommodation</label><br>
+								<input type="checkbox" id="flights" name="requirement_two" value="flights" />
+								<label class="requirement-label" for="flights">Flights</label><br>
+								<input type="checkbox" id="excursions" name="requirement_three" value="excursions" />
+								<label class="requirement-label" for="excursions">Excursions</label>
 							</div>
 
-							<label for="information">Additional Information</label>
+							<label class="label-style" for="additonal-info">Additional Information</label>
 							<textarea rows="5" name="additonal_info" id="additonal-info" class="form-control"></textarea>
 
 							<div class="form-row text-center">
 								<div class="col">
 									<button type="submit" class="form-btn btn-secondary" value="Send" data-toggle="modal" data-target="#submitModal">We'll Be In Touch!</button>
 								</div>
+							</div>
 						</form>
 
 						<!-- Modal -->
@@ -253,18 +252,20 @@
                                         </button>
 									</div>
 									<div class="modal-body">
-										Thanks For Registering Your Interest.<br>We'll Be In Touch About Your Visit To Morocco!
+										<p class="modal-text">Thanks For Registering Your
+											Interest.<br>We'll Be In Touch About Your Visit To Morocco!</p>
 									</div>
-										<div class="modal-footer">
-											<button type="button" class="modal-btn text-white" data-dismiss="modal">Close</button>
-										</div>
+									<div class="modal-footer">
+										<button type="button" class="modal-btn text-white" data-dismiss="modal">Close</button>
 									</div>
 								</div>
 							</div>
-
 						</div>
+
 					</div>
 				</div>
+			</div>
+		</div>
 	</section>
 
 	<footer class="container-fluid">
@@ -303,17 +304,17 @@
 			</div>
 		</div>
 	</footer>
-    <!--Back To Top Button-->
+	<!--Back To Top Button-->
 	<a id="topBtn" href="#top" class="style-btn">Back To Top</a>
 
 	<!--********Allows Emails to be sent to inbox*******-->
-	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
-	<script type="text/javascript">
+	<script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
+	<script>
 		(function(){
            emailjs.init("user_8x8w8NievwgOQDq7YCXH5");
         })();
 	</script>
-	<script type="text/javascript">
+	<script>
 		window.onload = function() {
             document.getElementById('contact-form').addEventListener('submit', function(event) {
                 event.preventDefault();

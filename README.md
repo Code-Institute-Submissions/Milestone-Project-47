@@ -1,6 +1,6 @@
 # VisitMorocco
 
-## My project is based on providing a website for users about visiting Morocco, as it is becoming more popular with holidaymakers and tourists. The website will give the user information about the best cities in Morocco to visit such as Casablanca, Marrakech, Agadir and Fes. It will allow the user to search what these cities have to offer will start the user on booking a holiday to morocco.
+#### My project is based on providing a website for users about visiting Morocco, as it is becoming more popular with holidaymakers and tourists. The website will give the user information about the best cities in Morocco to visit such as Casablanca, Marrakech, Agadir and Fes. It will allow the user to search what these cities have to offer will start the user on booking a holiday to morocco.
 
 ### UX
 
@@ -165,4 +165,21 @@ Another issue was the carousel images were not appearing, this was becuase the i
 
 ### Credits
 
+#### Content
 
+#### Media
+
+###### The images on the site came from the following links:
+[morocco-img.jpg](https://media.nomadicmatt.com/moroccoguide.jpg)
+[casablanca-img.jpg](https://pix10.agoda.net/geo/city/15368/1_15368_02.jpg?s=1920x822)
+[marrakesh-img.jpg](https://www.worldtravelguide.net/wp-content/uploads/2007/03/shu-hero-778448884-1440x823.jpg)
+[agadir-img.jpg](https://thefamilyholidayguide.co.uk/wp-content/uploads/agadir-morocco-family-holiday-march.png)
+[fes-img.jpg](https://www.worldtravelguide.net/wp-content/uploads/2017/04/shu-Morocco-Fez-BabGuissaGate-598048292-Leonid-Andronov-copy.jpg)
+
+#### Acknowledgements
+
+###### The information for the carousel came from the following links:
+[Casablanca Carousel Infomation](https://www.planetware.com/tourist-attractions-/casablanca-mar-c-cas.html)
+[Marakech Carousel Infomation](https://www.worldtravelguide.net/guides/africa/morocco/marrakech/)
+[Agadir Carousel Infomation](https://www.planetware.com/tourist-attractions-/agadir-mar-a-aga.html)
+[Fes Carousel Infomation](https://www.planetware.com/tourist-attractions-/fez-fes-fas-mar-fes-fes.html)

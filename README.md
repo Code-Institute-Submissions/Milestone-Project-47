@@ -131,3 +131,17 @@ This was used for this README file.
 
 Testing 
 
+HTML Validation
+This was used to text the HTML file and errors did occur like a missing div tag at the end of the section for 'Book You Visit', there were other errors in this section such as more missing div tags that caused me to add css to style the booking form to correct this.
+The 'Back To Top' button was another error as an anchor tag couldn't go inside the button tag, so to fix this I have gotten rid of the button tag and this has corrected the error.
+I have also gotten rid of all the 'Back To Top' buttons and left one at the bottom of the body after the footer so that it can work, this was as the ID couldnt be used more then once and this was the error that they couldnt be multiple anchors with the same ID.
+
+CSS 
+This website was used to check the css file and there was no errors.
+
+
+
+Deployment
+
+Credits
+

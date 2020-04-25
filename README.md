@@ -2,6 +2,8 @@
 
 #### My project is based on providing a site for users about visiting Morocco, as it is becoming more popular with holidaymakers and tourists. The site will give the user information about the best cities in Morocco to visit such as Casablanca, Marrakech, Agadir and Fes. It will allow the user to search what these cities have to offer and will start the user on booking a holiday to Morocco.
 
+#### [Live Website](https://whusssain937.github.io/Milestone-Project-2/)
+
 ### UX
 
 #### User Stories

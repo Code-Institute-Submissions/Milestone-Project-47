@@ -189,7 +189,7 @@ After you have your Api key, just go into the index.html file and optain the Goo
 
 ##### Connecting To EmaiLJS
 If you would like to use this code, then you will need to make your own EmaiLJS account and follow these instructions to set up [EmailJS Tutorial](https://www.emailjs.com/docs/tutorial/overview/).
-You will also need to make sure to allow your google account to accept emails from less secure apps such as Gitpod, as this was an issue I had. Follow this link to allow[Less Secure Apps Help](https://support.google.com/accounts/answer/6010255?hl=en).
+You will also need to make sure to allow your google account to accept emails from less secure apps such as Gitpod, as this was an issue I had. Follow this link to allow [Less Secure Apps Help](https://support.google.com/accounts/answer/6010255?hl=en).
 
 ### Credits
 

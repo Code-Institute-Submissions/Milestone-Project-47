@@ -165,10 +165,10 @@ If the user goes to the 'Where To Visit' section, they will be able to view the 
 - Then I filled in the name, email and contact boxes and the form did submit as expected as these were all the required boxes that were filled out.
 - I then filled out the boxes including the additional information box and then clicked on the checkbox and as expected I am able to click all three of the options or none of them.
 - Lastly when the form is submitted, an email is sent to the site's email address with the information from the form.
-- This is the email that will be recieved once the form is submitted [VisitMorocco Email](https://mail.google.com/mail/u/0/?ui=2&view=btop&ver=1nj101dboqm98&search=inbox&th=%23thread-f%3A1664984786943019499&cvid=2).
+- This is the email that will be recieved once the form is submitted [VisitMorocco Email](https://github.com/WHusssain937/Milestone-Project-2/blob/master/assets/images/emailjs.jpg).
 
 #### Websites & Devices Testing
-This ite was tested on different devices such as a large desktop screen, laptop, Samsung S10+, Iphone 6/7/8, Ipad Pro and Ipad and on multiple web browsers such as Google Chrome, Internet Exployer and Firefox to make sure that it was responsive and compatible.
+This site was tested on different devices such as a large desktop screen, laptop, Samsung S10+, Iphone 6/7/8, Ipad Pro and Ipad and on multiple web browsers such as Google Chrome, Internet Exployer and Firefox to make sure that it was responsive and compatible.
 I also had my friends and family tests it on their phones and laptops and it was responsive. 
 An issue that appeared in testing was that the 'Back to Top' button was interfering with other icons and buttons on mobile phone screens and was taking too much room on the screen so I have hidden it on mobile phone screens so it won't intefer with the sections.
 Another issue was the captions in the carousel as on smaller screens like tablets and mobile phones this information was taking too much room and covering the images so the user would not be able to see them, to fix this I have had the information not appear on screen sizes tablets or small so the user will have a clear view of the image and only the name of the city in the captions.

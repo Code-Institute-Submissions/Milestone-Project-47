@@ -36,6 +36,8 @@ The next section is the 'Travel Planning' section, where I have placed a search 
 #### Skeleton
 Below are links to the wireframes for this project and are designed to include different versions for a desktop, tablet and mobile phone view.
 
+[Wireframes](https://github.com/WHusssain937/Milestone-Project-2/tree/master/wireframes)
+
 #### Surface
 I have used a combination of a vibrant orange and white for the header and footer as this give the site a old school feel but still a refreshing look.
 The background color for the sections is white, this is because I believed it was best to keep it simple so the user can focus on the features of each section.

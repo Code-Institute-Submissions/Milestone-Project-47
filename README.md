@@ -133,21 +133,25 @@ I have also gotten rid of all the 'Back To Top' buttons and left one at the bott
 ##### [CSS Validation](https://jigsaw.w3.org/css-validator/) 
 This website was used to check the css file and there was no errors.
 
-##### 1.Easy to use 
+##### Easy to use 
 The website simple for the user as it is one page, the user have been told what to do by scrolling down to learn more and there are links in the navbar that will take the user to the section they require. 
 If the user wishes to return to a different section then they can simply click on the 'Back To Top' button and it will take them to the home page where they can click on the section they require in the navbar.
 
-##### 2. want to know more about what cities in Morocco have to offer.
+##### I want to know more about what cities in Morocco have to offer.
 This user story will be achieved by going to the 'Where to Visit' section as the carousel will have brief information of each city and what they famous for.  
 
-##### 3. I want to see a map showing what hotels I can stay at, restaurants I can eat at and places I can visit.
+##### I want to see a map showing what hotels I can stay at, restaurants I can eat at and places I can visit.
 This user story will be achieved by going to the 'Travel Planning' section, first the user will need to fill in the search box of the city they would like to visit then when they have clicked on the city in the search box it will automatically zoom into the city they chose with markers on hotels by default, the user then can change the search for hotels by clicking on the buttons for restaurants or attractions and this will change the markers on the map.
 
-##### 4. Images of Cities of Morocco
+##### Images of Cities of Morocco
 If the user goes to the 'Where To Visit' section, they will be able to view the different cities of Morroco and they can just wait for the images to change in the carousel or use the arrows on the left or right side to change images.
 
-##### 5. Register Interest in Visiting Morocco
-The user can acheive this by going to the 'Book Your Visit' section which will allow them to fill out the form, when they have submited the form the modal will appear to confirm this and a email will be sent to the email address link with EmailS with the form's information.
+##### Booking Form
+- First I filled in my full name on the form and submitted the form, but it would not allow the form to be submitted as the other required boxes had not been filled out. 
+- Then I filled in both the name and email boxes of the form and submitted it but it would not as not all required parts of form were filled in and an valid email address was not inputted. 
+- Then I filled in the name, email and contact boxes and the form did submit as these were all the required boxes that were filled out. 
+- I then filled out the boxes including the additional information boxe and then clicked on the checkbox and as expected I able to click all three of the options or none of them.
+- Lastly when the form is sent, I can recieve the email in my inbox and recieve the information of the form.
 
 #### Websites & Devices Testing
 This website was tested on different devices such as a large desktop screen, laptop, Samsung S10+, Iphone 6/7/8, Ipad Pro and Ipad and on multiple web browsers such as Google Chrome, Internet Exployer and Firefox to make sure that it was responsive and compatible.
@@ -193,12 +197,12 @@ This example was used to create the map and functions.
 
 #### Acknowledgements
 
-###### The information for the carousel came from the following links:
+##### The information for the carousel came from the following links:
 ###### [Casablanca Carousel Infomation](https://www.planetware.com/tourist-attractions-/casablanca-mar-c-cas.html)
 ###### [Marakech Carousel Infomation](https://www.worldtravelguide.net/guides/africa/morocco/marrakech/)
 ###### [Agadir Carousel Infomation](https://www.planetware.com/tourist-attractions-/agadir-mar-a-aga.html)
 ###### [Fes Carousel Infomation](https://www.planetware.com/tourist-attractions-/fez-fes-fas-mar-fes-fes.html)
 
-The tutor support were a massive help in completing this project.
+###### The tutor support were a massive help in completing this project.
 
 ###### This is for educational use

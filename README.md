@@ -23,7 +23,7 @@ My plan for the website was to create something for the user that they would lea
 so they would be more interested in visiting then they were before they visited the website.
 
 #### Scope
-The website is to show interested holidaymakers and tourists the different types of places they can visit in Morocco from the Iconic city of Casablanca to the sandy beaches of Agadir.
+The website is to show interested holidaymakers and tourists the different types of places they can visit in Morocco from the iconic city of Casablanca to the sandy beaches of Agadir.
 I also wanted to provide the user with the ability to research the holiday so see what hotels they would like to stay at and places to eat and where they would like to visit.
 Another aspect of the website is to allow customer to register register so we can contact them to book their visit.
 
@@ -31,7 +31,7 @@ Another aspect of the website is to allow customer to register register so we ca
 I have laid out my website so that on the home section there is a beautiful image of an moroccan city which will cover most of the home section, this will convince the user to learn more about the website and below the image there will be a small paragraph that will inform the user of the purpose of the site.
 Below this, we have the 'Where To Visit' section, there will be a carousel that will show images of the most popular cities in Morocco and will have a paragraph on each image to give the user more information the city.
 The next section is the 'Travel Planning' section, where I have placed a search box at the top of this section so the user can search the city they are interested in and next to the search box will be buttons for the user to click on depending on what they would like their search to focus on such as hotels, restaurants and attractions and below this will be the map so when the user has chosen the city of their choice they can then browse through the different hotels, restaurants and attractions.
-'Book Your Visit' is the last section on the website, there will be a form for the user to fill out and once submitted a modal will appear to confirm that. 
+'Book Your Visit' is the last section on the website, there will be a form for the user to fill out and a message below that we'll be in touch. 
 
 #### Skeleton
 Below are links to the wireframes for this project and are designed to include different versions for a desktop, tablet and mobile phone view.
@@ -39,6 +39,7 @@ Below are links to the wireframes for this project and are designed to include d
 #### Surface
 I have used a combination of a vibrant orange and white for the header and footer as this give the website a old school but stil refreshing look.
 The background color for the sections is white, this is because I believed it was best to keep it simple so the user can focus on the features of each section.
+The font that is used is 'Kalam' as I think it gives the website a foreign look and used a light black or white as the font color.
 
 ### Features
 
@@ -74,9 +75,6 @@ The checkbox will allow the user to click on what they require for their visit, 
 ##### 'We'll Be In Touch' Button
 This button will allow the user to submit form.
 
-##### Modal
-The modal will be pop up when the form has been submitted with a message to confirm it.
-
 ##### Back To Top
 This button will allow the user to return to the top of the page without scrolling up.
 
@@ -105,10 +103,10 @@ This was the second language used to style the website.
 This is the third language used to create the map and its functions in the 'Travel Planning' section and also used to link EmaiLJS.
 
 ##### [JQuery](https://jquery.com/)
-This libary was used for the map and functions.
+This libary was used for the map and functions and to link EmaiLJS to my form.
 
 ##### [Bootstrap](https://getbootstrap.com/)
-This framework was used to bring structure to my website and it was used to create my navbar, carousel, and modal. 
+This framework was used to bring structure to my website and it was used to create the navbar and carousel. 
 
 ##### [Font Awesome](https://fontawesome.com/)
 This libary was used to include icons for my buttons in the 'Travel Planning' section and for my footer social links.
@@ -117,7 +115,7 @@ This libary was used to include icons for my buttons in the 'Travel Planning' se
 This project was used to inlude the font 'Kalam' in my project.
 
 ##### [Google Maps Places API](https://cloud.google.com/maps-platform/places/?utm_source=google&utm_medium=cpc&utm_campaign=FY18-Q2-global-demandgen-paidsearchonnetworkhouseads-cs-maps_contactsal_saf&utm_content=text-ad-none-none-DEV_c-CRE_342707334876-ADGP_Hybrid+%7C+AW+SEM+%7C+BKWS+~+Google+Maps+Places+API+BMM-KWID_43700042842847928-kwd-18857163995-userloc_9045535&utm_term=KW_%2Bgoogle%20%2Bplaces-ST_%2Bgoogle+%2Bplaces&gclid=CjwKCAjwv4_1BRAhEiwAtMDLsimPdzpx2tBzDx3uSTxDvgJvNtRbK07wrBnnQm4lE_huOMCGPmXiyhoCvtIQAvD_BwE/)
-This API is used for map and features.
+This API is used for map and its features.
 
 ##### [Places Libary](https://developers.google.com/maps/documentation/javascript/places?utm_source=google&utm_medium=cpc&utm_campaign=FY18-Q2-global-demandgen-paidsearchonnetworkhouseads-cs-maps_contactsal_saf&utm_content=text-ad-none-none-DEV_c-CRE_342735903580-ADGP_Hybrid+%7C+AW+SEM+%7C+SKWS+~+Google+Maps+Places+Library+EXA-KWID_43700042842851642-kwd-582432946235-userloc_9045535&utm_term=KW_places%20library-ST_places+library&gclid=CjwKCAjwv4_1BRAhEiwAtMDLsqepkUz5I1A8WWGecDpWhXE5s2jlOwJ93iqJbT6LAt0UAdaDqrMu3xoCKIIQAvD_BwE)
 This libary was used bring up locations such as hotels, restaurants and attractions on my map and listings.
@@ -135,18 +133,18 @@ I have also gotten rid of all the 'Back To Top' buttons and left one at the bott
 ##### [CSS Validation](https://jigsaw.w3.org/css-validator/) 
 This website was used to check the css file and there was no errors.
 
-##### 1. Easy to use 
+##### 1.Easy to use 
 The website simple for the user as it is one page, the user have been told what to do by scrolling down to learn more and there are links in the navbar that will take the user to the section they require. 
 If the user wishes to return to a different section then they can simply click on the 'Back To Top' button and it will take them to the home page where they can click on the section they require in the navbar.
 
-##### 2. I want to know more about what cities in Morocco have to offer.
+##### 2. want to know more about what cities in Morocco have to offer.
 This user story will be achieved by going to the 'Where to Visit' section as the carousel will have brief information of each city and what they famous for.  
 
 ##### 3. I want to see a map showing what hotels I can stay at, restaurants I can eat at and places I can visit.
 This user story will be achieved by going to the 'Travel Planning' section, first the user will need to fill in the search box of the city they would like to visit then when they have clicked on the city in the search box it will automatically zoom into the city they chose with markers on hotels by default, the user then can change the search for hotels by clicking on the buttons for restaurants or attractions and this will change the markers on the map.
 
 ##### 4. Images of Cities of Morocco
-If they user goes to the 'Where To Visit' section, they will be able to view the different cities of Morroco and they can just wait for the images to change in the carousel or use the arrows on the left or right side to change images.
+If the user goes to the 'Where To Visit' section, they will be able to view the different cities of Morroco and they can just wait for the images to change in the carousel or use the arrows on the left or right side to change images.
 
 ##### 5. Register Interest in Visiting Morocco
 The user can acheive this by going to the 'Book Your Visit' section which will allow them to fill out the form, when they have submited the form the modal will appear to confirm this and a email will be sent to the email address link with EmailS with the form's information.
@@ -157,11 +155,23 @@ I also had my friends and family tests it on their phones and laptops and it was
 An issue that appeared in testing was that the 'Back to Top' button was interfering with other icons and buttons on mobile phone screens and was taking too much room on the screen so I have hidden it on mobile phone screens so it won't intefer with the sections.
 Another issue was the captions in the carousel as on smaller screens like tablets and mobile phones this information was taking too much room and covering the images so the user would not be able to see them, to fix this I have had the information not appear on screen sizes tablets or small so the user will have a clear view of the image and only the name of the city in the captions.
 
+When the site was published on github pages it wouldn't allow the maps and functions to work, this was becuase http address was not added to the API key to allow it to render the map, after it was added to the API key the map worked.
+Another issue was the carousel images were not appearing, this was becuase the img source had a slash at the begin which stopped github pages from deploying them, after this was removed the images now appear.
 
 ### Deployment
+This site was made using Gitpod, it was used for version control and commits and then pushed to a repository in Github. 
 
-When deploying this site the published version wouldn't allow the maps and functions to work, this was becuase http address was not added to the API key to allow it to render the map, after it was added to the API key the map worked.
-Another issue was the carousel images were not appearing, this was becuase the img source had a slash at the begin which stopped github pages from deploying them, after this was removed the images now appear.
+##### Run Code Locally
+To run locally, you can clone this respository directly in the terminal of the environment you are using for code editing type: git clone [VisitMorocco](https://github.com/WHusssain937/Milestone-Project-2).
+To cut ties with this GitHub repository, type git remote rm origin into the terminal.
+
+##### Creating Your Own API keys
+To use this code, you will need to optain your own API key, this can easily be done by following this link [Google Maps Api](https://developers.google.com/maps/documentation/javascript/get-api-key).
+After you have your Api key, just go into the index.html file and optain the Google Maps Api script tag and replace the Api key with your one.
+
+##### Connecting To EmaiLJS
+If you would like to use this code, then you will need to make your own EmaiLJS account and follow these instructions to set up [EmailJS Tutorial](https://www.emailjs.com/docs/tutorial/overview/).
+You will also need to make sure to allow your google account to accept emails from less secure apps such as Gitpod, as this was an issue I had. Follow this link to allow[Less Secure Apps Help](https://support.google.com/accounts/answer/6010255?hl=en).
 
 ### Credits
 

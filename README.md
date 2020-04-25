@@ -149,7 +149,7 @@ This user story will be achieved by going to the 'Travel Planning' section, firs
 If they user goes to the 'Where To Visit' section, they will be able to view the different cities of Morroco and they can just wait for the images to change in the carousel or use the arrows on the left or right side to change images.
 
 ##### 5. Register Interest in Visiting Morocco
-The user can acheive this by going to the 'Book Your Visit' section which will allow them to fill out the form, when they have submited the form the modal will appear to confirm this and a email will be sent to the website inbox with the information.
+The user can acheive this by going to the 'Book Your Visit' section which will allow them to fill out the form, when they have submited the form the modal will appear to confirm this and a email will be sent to the email address link with EmailS with the form's information.
 
 #### Websites & Devices Testing
 This website was tested on different devices such as a large desktop screen, laptop, Samsung S10+, Iphone 6/7/8, Ipad Pro and Ipad and on multiple web browsers such as Google Chrome, Internet Exployer and Firefox to make sure that it was responsive and compatible.

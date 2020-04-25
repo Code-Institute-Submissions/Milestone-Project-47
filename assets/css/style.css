@@ -373,6 +373,7 @@ div#map {
 .form-control {
     margin-bottom: 20px;
     border: 1px solid grey;
+    font-family: 'Kalam';
 }
 
 .form-btn {
@@ -389,29 +390,13 @@ div#map {
     font-size: 18px;
 }
 
-.modal-title {
-    font-family: 'Kalam';
-    font-weight: bold;
-    font-size: 24px;
-}
-
-.modal-body {
+.submit-message {
     font-family: 'Kalam';
     font-weight: bold;
     font-size: 18px;
-}
-
-.modal-btn {
-    font-family: 'Kalam';
-    font-weight: bold;
-    font-size: 18px;
-    background-color: hsl(15, 100%, 40%);
-    border-color: hsl(15, 100%, 40%); 
-}
-
-.modal-btn:hover {
-    background-color: #404040;
-    border-color: #404040;
+    color: #404040;
+    text-align: center;
+    margin-top: 20px;
 }
 
 /*--------------------------------------------Footer*/

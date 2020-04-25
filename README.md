@@ -104,35 +104,35 @@ This was the second language used to style the website.
 ##### Javascript
 This is the third language used to create the map and its functions in the 'Travel Planning' section and also used to link EmaiLJS.
 
-[JQuery](https://jquery.com/)
+##### [JQuery](https://jquery.com/)
 This libary was used for the map and functions.
 
-[Bootstrap](https://getbootstrap.com/)
+##### [Bootstrap](https://getbootstrap.com/)
 This framework was used to bring structure to my website and it was used to create my navbar, carousel, and modal. 
 
-[Font Awesome](https://fontawesome.com/)
+##### [Font Awesome](https://fontawesome.com/)
 This libary was used to include icons for my buttons in the 'Travel Planning' section and for my footer social links.
 
-[Google Fonts](https://fonts.google.com/)
+##### [Google Fonts](https://fonts.google.com/)
 This project was used to inlude the font 'Kalam' in my project.
 
-[Google Maps Places API](https://cloud.google.com/maps-platform/places/?utm_source=google&utm_medium=cpc&utm_campaign=FY18-Q2-global-demandgen-paidsearchonnetworkhouseads-cs-maps_contactsal_saf&utm_content=text-ad-none-none-DEV_c-CRE_342707334876-ADGP_Hybrid+%7C+AW+SEM+%7C+BKWS+~+Google+Maps+Places+API+BMM-KWID_43700042842847928-kwd-18857163995-userloc_9045535&utm_term=KW_%2Bgoogle%20%2Bplaces-ST_%2Bgoogle+%2Bplaces&gclid=CjwKCAjwv4_1BRAhEiwAtMDLsimPdzpx2tBzDx3uSTxDvgJvNtRbK07wrBnnQm4lE_huOMCGPmXiyhoCvtIQAvD_BwE/)
+##### [Google Maps Places API](https://cloud.google.com/maps-platform/places/?utm_source=google&utm_medium=cpc&utm_campaign=FY18-Q2-global-demandgen-paidsearchonnetworkhouseads-cs-maps_contactsal_saf&utm_content=text-ad-none-none-DEV_c-CRE_342707334876-ADGP_Hybrid+%7C+AW+SEM+%7C+BKWS+~+Google+Maps+Places+API+BMM-KWID_43700042842847928-kwd-18857163995-userloc_9045535&utm_term=KW_%2Bgoogle%20%2Bplaces-ST_%2Bgoogle+%2Bplaces&gclid=CjwKCAjwv4_1BRAhEiwAtMDLsimPdzpx2tBzDx3uSTxDvgJvNtRbK07wrBnnQm4lE_huOMCGPmXiyhoCvtIQAvD_BwE/)
 This API is used for map and features.
 
-[Places Libary](https://developers.google.com/maps/documentation/javascript/places?utm_source=google&utm_medium=cpc&utm_campaign=FY18-Q2-global-demandgen-paidsearchonnetworkhouseads-cs-maps_contactsal_saf&utm_content=text-ad-none-none-DEV_c-CRE_342735903580-ADGP_Hybrid+%7C+AW+SEM+%7C+SKWS+~+Google+Maps+Places+Library+EXA-KWID_43700042842851642-kwd-582432946235-userloc_9045535&utm_term=KW_places%20library-ST_places+library&gclid=CjwKCAjwv4_1BRAhEiwAtMDLsqepkUz5I1A8WWGecDpWhXE5s2jlOwJ93iqJbT6LAt0UAdaDqrMu3xoCKIIQAvD_BwE)
+##### [Places Libary](https://developers.google.com/maps/documentation/javascript/places?utm_source=google&utm_medium=cpc&utm_campaign=FY18-Q2-global-demandgen-paidsearchonnetworkhouseads-cs-maps_contactsal_saf&utm_content=text-ad-none-none-DEV_c-CRE_342735903580-ADGP_Hybrid+%7C+AW+SEM+%7C+SKWS+~+Google+Maps+Places+Library+EXA-KWID_43700042842851642-kwd-582432946235-userloc_9045535&utm_term=KW_places%20library-ST_places+library&gclid=CjwKCAjwv4_1BRAhEiwAtMDLsqepkUz5I1A8WWGecDpWhXE5s2jlOwJ93iqJbT6LAt0UAdaDqrMu3xoCKIIQAvD_BwE)
 This libary was used bring up locations such as hotels, restaurants and attractions on my map and listings.
 
-[EmaiLJS](https://www.emailjs.com/)
+##### [EmaiLJS](https://www.emailjs.com/)
 This was used to link the form to a email address so when a form is submitted, it is sent to a email address linked to the site.
 
 ### Testing 
 
-[HTML Validation](https://validator.w3.org/nu/)
+##### [HTML Validation](https://validator.w3.org/nu/)
 This was used to text the HTML file and errors did occur like a missing div tag at the end of the section for 'Book You Visit', there were other errors in this section such as more missing div tags that caused me to add css to style the booking form to correct this.
 The 'Back To Top' button was another error as an anchor tag couldn't go inside the button tag, so to fix this I have gotten rid of the button tag and this has corrected the error.
 I have also gotten rid of all the 'Back To Top' buttons and left one at the bottom of the body after the footer so that it can work, this was as the ID couldnt be used more then once and this was the error that they couldnt be multiple anchors with the same ID.
 
-[CSS Validation](https://jigsaw.w3.org/css-validator/) 
+##### [CSS Validation](https://jigsaw.w3.org/css-validator/) 
 This website was used to check the css file and there was no errors.
 
 ##### 1. Easy to use 

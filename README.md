@@ -10,15 +10,15 @@
 
 Below are user stories that were made so that I have a vision for my project:
 
-I want the site to be easy to use and be as clear as possible
+As a new user, I want the site to be easy to use and be as clear as possible
 
-I want to know more about what cities in Morocco have to offer. 
+As a potential customer, I want to know more about what cities in Morocco have to offer. 
 
-I want to see a map showing what hotels I can stay at, restaurants I can eat at and places I can visit. 
+As a potential vistor to Morocco, I want to see a map showing what hotels I can stay at, restaurants I can eat at and places I can visit. 
 
-I want to see images of what the cities in Morocco look like.
+As a user, I want to see images of what the cities in Morocco look like.
 
-I would like to register my interest in visiting Morocco.
+As a interested user, I would like to register my interest in visiting Morocco.
 
 #### Strategy
 My plan for the site was to create somewhere where they would learn more about what Morocco has to offer and to see what they can do in cities like Marrakech. 
@@ -77,6 +77,9 @@ The checkbox will allow the user to click on what they require for their visit, 
 ##### 'We'll Be In Touch' Button
 This button will allow the user to submit form.
 
+##### Form Confirmation Message 
+When the button is clicked on, it will bring up a message saying that the form has been submitted.
+
 ##### Back To Top
 This button will allow the user to return to the top of the page without scrolling up.
 
@@ -105,7 +108,7 @@ This was the second language used to style the site.
 This is the third language used to create the map and its functions in the 'Travel Planning' section and also used to link EmaiLJS.
 
 ##### [JQuery](https://jquery.com/)
-This libary was used for the map and functions and to link EmaiLJS to my form.
+This libary was used for the map and functions and to link EmaiLJS to my form, also to create a form confirmation message.
 
 ##### [Bootstrap](https://getbootstrap.com/)
 This framework was used to bring structure to my site and it was used to create the navbar and carousel. 
@@ -166,6 +169,7 @@ If the user goes to the 'Where To Visit' section, they will be able to view the 
 - Then I filled in both the name and email boxes of the form and submitted it, but as expected it would not as not all required parts of form were filled in and an valid email address was not inputted. 
 - Then I filled in the name, email and contact boxes and the form did submit as expected as these were all the required boxes that were filled out.
 - I then filled out the boxes including the additional information box and then clicked on the checkbox and as expected I am able to click all three of the options or none of them.
+- When the 'We'll Be In Touch' button is clicked, a message will appear to confirm it has been submitted.
 - Lastly when the form is submitted, an email is sent to the site's email address with the information from the form.
 - This is the email that will be recieved once the form is submitted [VisitMorocco Email](https://github.com/WHusssain937/Milestone-Project-2/blob/master/assets/images/emailjs.jpg).
 
@@ -179,7 +183,7 @@ When the site was published on Github Pages it wouldn't allow the maps and funct
 Another issue was the carousel images were not appearing, this was becuase the img source had a slash at the begin which stopped github pages from deploying them, after this was removed the images now appear.
 
 ### Deployment
-This site was made using Gitpod, it was used for version control and commits and then pushed to a repository in Github. 
+This site is hosted by GitHub Pages, it is directly deployed via the master branch and it was used for version control and commits and then pushed to a repository in Github. 
 
 ##### Run Code Locally
 To run locally, you can clone this respository directly in the terminal of the environment you are using for code editing type: git clone [VisitMorocco](https://github.com/WHusssain937/Milestone-Project-2).

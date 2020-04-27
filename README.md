@@ -157,6 +157,7 @@ If the user goes to the 'Where To Visit' section, they will be able to view the 
 - Then when the map zooms in, it will automatically bring up green markers on hotel locations in Agadir as expected.
 - Then if the restaurant button is clicked, it will bring up green markers on restaurant locations instead in Agadir as expected. 
 - Then if the attractions button is clicked, it will bring up green markers on attractions instead in Agadir as expected. 
+- When these buttons are clicked on, they will change color to dark grey to show the user which locations the maps will bring up.
 - If then one of the green markers is clicked on, it will bring up a small window with information on the hotel or restaurant or attraction in Agadir as expected.
 - If I think that the map is too small, I can click on the full screen icon in the map and it will enlarge the map and will show the full screen of Agadir as expected.
 - If I then want to see a street view of Agadir, then I can drag the pegman on where I want to see street view and it will bring it up as expected. 

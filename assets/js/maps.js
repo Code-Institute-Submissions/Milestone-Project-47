@@ -19,7 +19,7 @@ function initMap() {
         center: countries['ma'].center,
         mapTypeControl: false
     });
- 
+
     infoWindow = new google.maps.InfoWindow({
         content: document.getElementById('info-content')
     });

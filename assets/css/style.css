@@ -225,8 +225,9 @@
     }
 }
 
-.tr-btn:hover {
-    background-color: #ff3300;
+.tr-btn:focus {
+    background-color: #404040;
+    border-color: #404040;
 }
 
 /*--------------------------------------------Map*/

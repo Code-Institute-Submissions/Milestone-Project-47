@@ -235,10 +235,11 @@
 
 							<div class="form-row text-center">
 								<div class="col">
-									<button type="submit" id="contact-form-submit" class="form-btn btn-secondary" value="Send">We'll Be In Touch!</button>
+									<button type="submit" id="form-submit" class="form-btn btn-secondary" value="Send">We'll Be In Touch!</button>
 								</div>
 							</div>
-							<p class="submit-message">Thanks For Registering Your Interest.<br>We'll Be In Touch About Your Visit To Morocco!</p>
+							<p class="submit-message">Thanks For Registering Your
+								Interest.<br>We'll Be In Touch About Your Visit To Morocco!</p>
 						</form>
 					</div>
 				</div>
@@ -315,6 +316,15 @@
 		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
 	</script>
 	<script src="assets/js/maps.js"></script>
+
+	<!--Form Submission Message-->
+	<script>
+		$(document).ready(function(){
+            $("form").submit(function(){
+                alert("Your Form Has Been Submitted!");
+                });
+            });
+	</script>
 </body>
 
 </html>

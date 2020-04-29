@@ -40,9 +40,13 @@ function initMap() {
 // zoom the map in on the city.
 
 function onPlaceChanged(type) {
-    if (type == "") {
+    if (type === "" || type === undefined) {
         type = "lodging";
     }
+    $('.tr-btn').css('background-color', '#cc3300');
+    $('.tr-btn').css('border-color', '#cc3300');
+    $(`#${type}-btn`).css('background-color', '#404040');
+    $(`#${type}-btn`).css('border-color', '#404040');
     var place = autocomplete.getPlace();
     if (place.geometry) {
         mapOptions.panTo(place.geometry.location);

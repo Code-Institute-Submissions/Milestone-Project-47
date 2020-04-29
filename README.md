@@ -190,9 +190,9 @@ This site is hosted by GitHub Pages, it is directly deployed via the master bran
 To run locally, you can clone this respository directly in the terminal of the environment you are using for code editing type: git clone [VisitMorocco](https://github.com/WHusssain937/Milestone-Project-2).
 To cut ties with this GitHub repository, type git remote rm origin into the terminal.
 
-##### Creating Your Own API keys
-To use this code, you will need to optain your own API key, this can easily be done by following this link [Google Maps Api](https://developers.google.com/maps/documentation/javascript/get-api-key).
-After you have your Api key, just go into the index.html file and optain the Google Maps Api script tag and replace the Api key with your one.
+##### Obtaining Your Own API Key
+To use this code, you will need to obtain your own API key, this can easily be done by following this link [Google Maps Api](https://developers.google.com/maps/documentation/javascript/get-api-key).
+After you have your Api key, just go into the index.html file and obtain the Google Maps Api script tag and replace the Api key with your one.
 
 ##### Connecting To EmaiLJS
 If you would like to use this code, then you will need to make your own EmaiLJS account and follow these instructions to set up [EmailJS Tutorial](https://www.emailjs.com/docs/tutorial/overview/).

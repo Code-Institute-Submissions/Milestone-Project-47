@@ -37,7 +37,7 @@ function initMap() {
 }
 
 // When the user selects a city, get the place details for the city and
-// zoom the map in on the city.
+// zoom the map in on the city. JQuery added to highlight what location is shown on map.
 
 function onPlaceChanged(type) {
     if (type === "" || type === undefined) {
